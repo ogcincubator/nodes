@@ -1,9 +1,8 @@
 import './App.css'
 import 'leaflet/dist/leaflet.css'
-import {MapContainer, Marker, Popup} from 'react-leaflet'
+import {MapContainer, Marker, Popup, TileLayer} from 'react-leaflet'
 import L from 'leaflet'
 import MarkerClusterGroup from "react-leaflet-cluster";
-import {MapLibreTileLayer} from "./MapLibreTileLayer.ts";
 import nodes from './nodes.json'
 
 delete L.Icon.Default.prototype._getIconUrl;
@@ -25,9 +24,10 @@ function AppVector() {
         maxZoom={20}
         maxBounds={[[-85.06, -180], [85.06, 180]]}
         scrollWheelZoom={true}>
-        <MapLibreTileLayer
-          attribution='&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="https://openstreetmap.org">OpenStreetMap</a> contributors'
-          url={require('./gameboy.json')}
+        <TileLayer
+          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
+          url="https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png"
+          maxZoom={20}
         />
         <MarkerClusterGroup>
           {nodes.features.map((node, index) => (
