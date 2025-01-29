@@ -25,7 +25,7 @@ function AppVector() {
         maxBounds={[[-85.06, -180], [85.06, 180]]}
         scrollWheelZoom={true}>
         <TileLayer
-          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
+          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>; this map uses the <a href="https://github.com/opengeospatial/poi">POI</a> Standard Candidate'
           url="https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png"
           maxZoom={20}
         />
