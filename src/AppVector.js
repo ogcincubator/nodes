@@ -21,8 +21,8 @@ function AppVector() {
         className="full-screen-map"
         center={[13.0170646,41.7061147]}
         zoom={3}
-        minZoom={3}
-        maxZoom={19}
+        minZoom={1}
+        maxZoom={20}
         maxBounds={[[-85.06, -180], [85.06, 180]]}
         scrollWheelZoom={true}>
         <MapLibreTileLayer
