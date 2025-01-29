@@ -1,8 +1,9 @@
-# Getting Started with React Leaflet and MapLibre
+# Code Sprint
 
-This project will get you started using [Stadia Maps](https://stadiamaps.com/) in your React application using
-[React Leaflet](https://react-leaflet.js.org/) and [react-leaflet-cluster](https://github.com/akursat/react-leaflet-cluster)
-for marker clustering.
+This project uses
+[React Leaflet](https://react-leaflet.js.org/) and [react-leaflet-cluster](https://github.com/akursat/react-leaflet-cluster) to show marker clustering of code sprint nodes on a map.
+
+The actual [data](./src/nodes.json) it is a GeoJSON encoding of the [OGC Points of Interest (PoI)](https://github.com/opengeospatial/poi) candidate Standard.
 
 ## Quickstart
 
@@ -13,15 +14,16 @@ npm install
 npm start
 ```
 
-Your browser should open automatically, showing a map of all video arcades in Japan, using OpenStreetMap
-data fetched using [this Overpass Turbo query](https://overpass-turbo.eu/s/1r4V) on Feb 7, 2023.
+Deploy to GitHub pages:
 
-## Vector support
+```shell
+npm run deploy
+```
 
-The default configuration loads raster tiles, but [AppVector.js](src/AppVector.js)
-provides a vector example using the [MapLibre GL Leaflet](https://github.com/maplibre/maplibre-gl-leaflet)
-plugin. You can control which tiles are loaded with the `useVector` flag in [index.js](src/index.js).
+## Live
 
-![img.png](dark.png)
+See it live here: https://ogcincubator.github.io/code-sprint-nodes
 
-![img.png](gameboy.png)
+## License
+
+This project is published under a [MIT License](./LICENSE)
