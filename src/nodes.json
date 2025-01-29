@@ -1,0 +1,99 @@
+{
+    "type": "FeatureCollection",
+    "timestamp": "2025-01-29T09:21:34Z",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+             "type": "Point",
+             "coordinates": [-9.1100914,38.728632]
+            },
+            "id": "1",
+            "properties": {
+            "name": {
+             "name": "Arts & Nerds"
+            },
+            "contactInfo": [{
+              "role": "owner",
+              "party": {
+               "contactInfo": {
+                "OnlineResource": "https://arts-nerds.org/"
+               },
+               "name": "Arts & Nerds Cultural Association"
+              }
+             }],
+            "hasMetadata": {
+                "href": "https://arts-nerds.org/",
+            "rel": "about"
+            },
+            "hasPayload":{
+                "usesSchema": [{
+                    "href": "https://genpoijson.org/schema/publicationpoi.json",
+                    "rel": "describedby"
+                }],
+                "onlineResources": [{
+                    "description": "Website about organisation",
+                    "linkage": "https://arts-nerds.org/"
+                }],
+                "locationInfo": [{
+                    "address": {
+                    "country": "Portugal",
+                    "deliveryPoint": "Rua de Xabregas 2, 1900-277 Lisboa",
+                    "electronicMailAddress": "NA"
+                    },
+                    "phone": {
+                    "number": "NA"
+                    }
+                }]
+                  }
+                 }
+                },
+                {
+                    "type": "Feature",
+                    "geometry": {
+                     "type": "Point",
+                     "coordinates": [77.5632992,13.0170646]
+                    },
+                    "id": "2",
+                    "properties": {
+                    "name": {
+                     "name": "Geospatial Data Exchange"
+                    },
+                    "contactInfo": [{
+                      "role": "owner",
+                      "party": {
+                       "contactInfo": {
+                        "OnlineResource": "https://geospatial.org.in/"
+                       },
+                       "name": "Geospatial Data Exchange"
+                      }
+                     }],
+                    "hasMetadata": {
+                        "href": "https://geospatial.org.in/",
+                    "rel": "about"
+                    },
+                    "hasPayload":{
+                        "usesSchema": [{
+                            "href": "https://genpoijson.org/schema/publicationpoi.json",
+                            "rel": "describedby"
+                        }],
+                        "onlineResources": [{
+                            "description": "Website about organisation",
+                            "linkage": "https://geospatial.org.in/"
+                        }],
+                        "locationInfo": [{
+                            "address": {
+                            "country": "India",
+                            "deliveryPoint": "Ground Floor, Indian Institute of Science, Entrepreneurship Centre Road Entrepreneurship Centre, Bengaluru, Karnataka 560012",
+                            "electronicMailAddress": "support@cdpg.org.in"
+                            },
+                            "phone": {
+                            "number": "NA"
+                            }
+                        }]
+                          }
+                         }
+                        }
+
+    ]
+  }

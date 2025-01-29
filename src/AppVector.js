@@ -4,7 +4,7 @@ import {MapContainer, Marker, Popup} from 'react-leaflet'
 import L from 'leaflet'
 import MarkerClusterGroup from "react-leaflet-cluster";
 import {MapLibreTileLayer} from "./MapLibreTileLayer.ts";
-import arcades from './arcades.json'
+import nodes from './nodes.json'
 
 delete L.Icon.Default.prototype._getIconUrl;
 
@@ -19,8 +19,8 @@ function AppVector() {
     <div className="App">
       <MapContainer
         className="full-screen-map"
-        center={[38, 139.69222]}
-        zoom={6}
+        center={[13.0170646,41.7061147]}
+        zoom={3}
         minZoom={3}
         maxZoom={19}
         maxBounds={[[-85.06, -180], [85.06, 180]]}
@@ -30,15 +30,15 @@ function AppVector() {
           url={require('./gameboy.json')}
         />
         <MarkerClusterGroup>
-          {arcades.features.map((arcade, index) => (
+          {nodes.features.map((node, index) => (
             <Marker
-              key={arcade.properties['@id']}
-              position={[arcade.geometry.coordinates[1], arcade.geometry.coordinates[0]]}
+              key={node.id}
+              position={[node.geometry.coordinates[1], node.geometry.coordinates[0]]}
             >
               <Popup>
-                {arcade.properties.name}
-                <br />
-                {arcade.properties['name:en']}
+                {node.properties.name.name}
+                <br/>
+                <a href={node.properties.hasMetadata.href}>{node.properties.hasMetadata.href}</a>
               </Popup>
             </Marker>
             ))}
