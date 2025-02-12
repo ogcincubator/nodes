@@ -25,7 +25,7 @@ function AppVector() {
         maxBounds={[[-85.06, -180], [85.06, 180]]}
         scrollWheelZoom={true}>
         <TileLayer
-          attribution='&copy; <a href="https://www.stadiamaps.com/" target="_blank">Stadia Maps</a> &copy; <a href="https://www.stamen.com/" target="_blank">Stamen Design</a> &copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+          attribution='&copy; <a href="https://www.stadiamaps.com/" target="_blank">Stadia Maps</a> &copy; <a href="https://www.stamen.com/" target="_blank">Stamen Design</a> &copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors; this map uses the <a href="https://github.com/opengeospatial/poi">PoI</a> Standard candidate.'
           url="https://tiles.stadiamaps.com/tiles/stamen_toner/{z}/{x}/{y}{r}.png"
           maxZoom={20}
         />
@@ -38,7 +38,7 @@ function AppVector() {
               <Popup>
                 {node.properties.name.name}
                 <br/>
-                <a href={node.properties.hasMetadata.href}>{node.properties.hasMetadata.href}</a>
+                <a href={node.properties.hasMetadata.href} target="_blank" rel="noopener noreferrer">More info</a>
               </Popup>
             </Marker>
             ))}

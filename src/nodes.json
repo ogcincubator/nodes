@@ -23,7 +23,7 @@
               }
              }],
             "hasMetadata": {
-                "href": "https://arts-nerds.org/",
+                "href": "https://github.com/opengeospatial/developer-events/wiki/Arts-and-Nerds",
             "rel": "about"
             },
             "hasPayload":{
@@ -57,19 +57,19 @@
                     "id": "2",
                     "properties": {
                     "name": {
-                     "name": "Geospatial Data Exchange"
+                     "name": "Centre of Data for Public Good"
                     },
                     "contactInfo": [{
                       "role": "owner",
                       "party": {
                        "contactInfo": {
-                        "OnlineResource": "https://geospatial.org.in/"
+                        "OnlineResource": "https://dataforpublicgood.org.in/"
                        },
-                       "name": "Geospatial Data Exchange"
+                       "name": "Centre of Data for Public Good"
                       }
                      }],
                     "hasMetadata": {
-                        "href": "https://geospatial.org.in/",
+                        "href": "https://github.com/opengeospatial/developer-events/wiki/Centre-of-Data-for-Public-Good",
                     "rel": "about"
                     },
                     "hasPayload":{
@@ -79,12 +79,12 @@
                         }],
                         "onlineResources": [{
                             "description": "Website about organisation",
-                            "linkage": "https://geospatial.org.in/"
+                            "linkage": "https://dataforpublicgood.org.in/"
                         }],
                         "locationInfo": [{
                             "address": {
                             "country": "India",
-                            "deliveryPoint": "Ground Floor, Indian Institute of Science, Entrepreneurship Centre Road Entrepreneurship Centre, Bengaluru, Karnataka 560012",
+                            "deliveryPoint": "Ground Floor, Entrepreneurship Centre, Entrepreneurship Centre Road, Bengaluru, Indian Institute of Science, Karnataka 560012",
                             "electronicMailAddress": "support@cdpg.org.in"
                             },
                             "phone": {
