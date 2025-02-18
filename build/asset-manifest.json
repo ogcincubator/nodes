@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/code-sprint-nodes/static/css/main.f43995af.css",
-    "main.js": "/code-sprint-nodes/static/js/main.c2608025.js",
-    "static/js/787.6766fb4e.chunk.js": "/code-sprint-nodes/static/js/787.6766fb4e.chunk.js",
+    "main.js": "/code-sprint-nodes/static/js/main.a7f4a6c4.js",
+    "static/js/453.a94eb922.chunk.js": "/code-sprint-nodes/static/js/453.a94eb922.chunk.js",
     "index.html": "/code-sprint-nodes/index.html",
     "main.f43995af.css.map": "/code-sprint-nodes/static/css/main.f43995af.css.map",
-    "main.c2608025.js.map": "/code-sprint-nodes/static/js/main.c2608025.js.map",
-    "787.6766fb4e.chunk.js.map": "/code-sprint-nodes/static/js/787.6766fb4e.chunk.js.map"
+    "main.a7f4a6c4.js.map": "/code-sprint-nodes/static/js/main.a7f4a6c4.js.map",
+    "453.a94eb922.chunk.js.map": "/code-sprint-nodes/static/js/453.a94eb922.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f43995af.css",
-    "static/js/main.c2608025.js"
+    "static/js/main.a7f4a6c4.js"
   ]
 }

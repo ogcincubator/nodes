@@ -26,7 +26,7 @@ function AppVector() {
         scrollWheelZoom={true}>
         <TileLayer
           attribution='&copy; <a href="https://www.stadiamaps.com/" target="_blank">Stadia Maps</a> &copy; <a href="https://www.stamen.com/" target="_blank">Stamen Design</a> &copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors; this map uses the <a href="https://github.com/opengeospatial/poi">PoI</a> Standard candidate.'
-          url="https://tiles.stadiamaps.com/tiles/stamen_toner_background/{z}/{x}/{y}{r}.png"
+          url="https://tiles.stadiamaps.com/tiles/stamen_watercolor/{z}/{x}/{y}{r}.png"
           maxZoom={20}
         />
         <MarkerClusterGroup>
