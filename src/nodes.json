@@ -93,7 +93,52 @@
                         }]
                           }
                          }
-                        }
+                        },
+                        {
+                            "type": "Feature",
+                            "geometry": {
+                             "type": "Point",
+                             "coordinates": [139.7625478,35.6757769]
+                            },
+                            "id": "3",
+                            "properties": {
+                            "name": {
+                             "name": "Tokyo Innovation Base"
+                            },
+                            "contactInfo": [{
+                              "role": "owner",
+                              "party": {
+                               "contactInfo": {
+                                "OnlineResource": "https://tib.metro.tokyo.lg.jp/"
+                               },
+                               "name": "Tokyo Innovation Base"
+                              }
+                             }],
+                            "hasMetadata": {
+                                "href": "https://github.com/opengeospatial/developer-events/wiki/Tokyo-Innovation-Base",
+                            "rel": "about"
+                            },
+                            "hasPayload":{
+                                "usesSchema": [{
+                                    "href": "https://genpoijson.org/schema/publicationpoi.json",
+                                    "rel": "describedby"
+                                }],
+                                "onlineResources": [{
+                                    "description": "Website about organisation",
+                                    "linkage": "https://tib.metro.tokyo.lg.jp/"
+                                }],
+                                "locationInfo": [{
+                                    "address": {
+                                    "country": "Japan",
+                                    "deliveryPoint": "〒100-0005 Tokyo, Chiyoda City, Marunouchi, 3 Chome−8−3 2F SusHi Tech Square"
+                                    },
+                                    "phone": {
+                                    "number": "NA"
+                                    }
+                                }]
+                                  }
+                                 }
+                                }
 
     ]
   }
