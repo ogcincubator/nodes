@@ -19,7 +19,7 @@ function AppVector() {
       <MapContainer
         className="full-screen-map"
         center={[13.0170646,77.5632992]}
-        zoom={3}
+        zoom={2}
         minZoom={1}
         maxZoom={20}
         maxBounds={[[-85.06, -180], [85.06, 180]]}
