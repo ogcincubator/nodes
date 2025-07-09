@@ -26,6 +26,8 @@
                 "href": "https://github.com/opengeospatial/developer-events/wiki/Arts-and-Nerds",
             "rel": "about"
             },
+            "validFrom": "2025-04-25T09:00:00+01:00", 
+            "validTo": "2025-04-09T17:00:00+01:00", 
             "hasPayload":{
                 "usesSchema": [{
                     "href": "https://genpoijson.org/schema/publicationpoi.json",
@@ -72,6 +74,8 @@
                         "href": "https://github.com/opengeospatial/developer-events/wiki/Centre-of-Data-for-Public-Good",
                     "rel": "about"
                     },
+                    "validFrom": "2025-04-25T09:00:00+01:00", 
+                    "validTo": "2025-04-09T17:00:00+01:00",
                     "hasPayload":{
                         "usesSchema": [{
                             "href": "https://genpoijson.org/schema/publicationpoi.json",
@@ -118,6 +122,8 @@
                                 "href": "https://github.com/opengeospatial/developer-events/wiki/Tokyo-Innovation-Base",
                             "rel": "about"
                             },
+                            "validFrom": "2025-05-24T09:00:00+09:00", 
+                            "validTo": "2025-05-25T17:00:00+09:00",
                             "hasPayload":{
                                 "usesSchema": [{
                                     "href": "https://genpoijson.org/schema/publicationpoi.json",
