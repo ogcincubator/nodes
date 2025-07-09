@@ -1,8 +1,31 @@
 {
-  "name": "react-leaflet-demo",
+  "title": "Code Sprint Nodes website",
+  "name": "nodes",
   "version": "0.1.0",
   "private": true,
   "homepage": "https://developer.ogc.org/sprints/nodes/",
+  "description": "Source code for the Code Sprint Nodes website.",
+  "keywords": [
+      "nodes",
+      "sprints",
+      "LeafLet",
+      "React",
+      "Stadia",
+      "map"
+  ],
+  "bugs": {
+      "url": "https://github.com/ogcincubator/nodes/issues/",
+      "email": "devrel@ogc.org"
+  },
+  "license": "MIT",
+  "author": "Joana Simoes",
+  "contributors": [
+      "doublebyte1 (https://github.com/doublebyte1/)"
+  ],
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/ogcincubator/nodes.git"
+  },
   "dependencies": {
     "@maplibre/maplibre-gl-leaflet": "^0.0.19",
     "@testing-library/jest-dom": "^5.16.5",
