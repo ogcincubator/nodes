@@ -144,7 +144,56 @@
                                 }]
                                   }
                                  }
+                                },
+                        {
+                            "type": "Feature",
+                            "geometry": {
+                             "type": "Point",
+                             "coordinates": [4.3648444,51.9465817]
+                            },
+                            "id": "4",
+                            "properties": {
+                            "name": {
+                             "name": "VONK Innovation Center"
+                            },
+                            "contactInfo": [{
+                              "role": "owner",
+                              "party": {
+                               "contactInfo": {
+                                "OnlineResource": "https://www.vonkrotterdam.nl/"
+                               },
+                               "name": "VONK innovatiecentrum"
+                              }
+                             }],
+                            "hasMetadata": {
+                                "href": "https://github.com/opengeospatial/developer-events/wiki/Tokyo-Innovation-Base",
+                            "rel": "about"
+                            },
+                            "validFrom": "2025-07-22T09:00:00+09:00", 
+                            "validTo": "2025-10-22T17:00:00+09:00",
+                            "hasPayload":{
+                                "usesSchema": [{
+                                    "href": "https://genpoijson.org/schema/publicationpoi.json",
+                                    "rel": "describedby"
+                                }],
+                                "onlineResources": [{
+                                    "description": "Website about organisation",
+                                    "linkage": "https://www.vonkrotterdam.nl/"
+                                }],
+                                "locationInfo": [{
+                                    "address": {
+                                    "country": "Netherlands",
+                                    "deliveryPoint": "Het Timmerhuis, Halvemaanpassage 90, 3011 DL Rotterdam, Nederland"
+                                    },
+                                    "phone": {
+                                    "number": "NA"
+                                    }
+                                }]
+                                  }
+                                 }
                                 }
 
     ]
   }
+
+

@@ -9,6 +9,7 @@ delete L.Icon.Default.prototype._getIconUrl;
 
 L.Icon.Default.mergeOptions({
   iconRetinaUrl: require('leaflet/dist/images/marker-icon-2x.png'),
+  //iconUrl: require('./marker-icon-green.png'),
   iconUrl: require('leaflet/dist/images/marker-icon.png'),
   shadowUrl: require('leaflet/dist/images/marker-shadow.png')
 });
@@ -35,7 +36,7 @@ function AppVector() {
       <MapContainer
         className="full-screen-map"
         center={[13.0170646,77.5632992]}
-        zoom={2}
+        zoom={3}
         minZoom={1}
         maxZoom={20}
         maxBounds={[[-85.06, -180], [85.06, 180]]}
