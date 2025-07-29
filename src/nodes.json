@@ -30,7 +30,7 @@
             "validTo": "2025-04-09T17:00:00+01:00", 
             "hasPayload":{
                 "usesSchema": [{
-                    "href": "https://genpoijson.org/schema/publicationpoi.json",
+                    "href": "https://raw.githubusercontent.com/ogcincubator/nodes/refs/heads/main/src/poi.json",
                     "rel": "describedby"
                 }],
                 "onlineResources": [{
@@ -78,7 +78,7 @@
                     "validTo": "2025-04-09T17:00:00+01:00",
                     "hasPayload":{
                         "usesSchema": [{
-                            "href": "https://genpoijson.org/schema/publicationpoi.json",
+                            "href": "https://raw.githubusercontent.com/ogcincubator/nodes/refs/heads/main/src/poi.json",
                             "rel": "describedby"
                         }],
                         "onlineResources": [{
@@ -173,7 +173,7 @@
                             "validTo": "2025-10-22T17:00:00+02:00",
                             "hasPayload":{
                                 "usesSchema": [{
-                                    "href": "https://genpoijson.org/schema/publicationpoi.json",
+                                    "href": "https://raw.githubusercontent.com/ogcincubator/nodes/refs/heads/main/src/poi.json",
                                     "rel": "describedby"
                                 }],
                                 "onlineResources": [{
