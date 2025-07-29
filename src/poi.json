@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "PoI Payload Schema",
+  "description": "Schema for the PoI payload.",
+  "type": "object",
+  "properties": {
+    "usesSchema": {
+      "type": "array",
+      "description": "Schemas used by this payload.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "href": {
+            "type": "string",
+            "format": "uri",
+            "description": "URL to the schema."
+          },
+          "rel": {
+            "type": "string",
+            "description": "Relationship of the link (e.g., 'describedby')."
+          }
+        },
+        "required": ["href", "rel"]
+      }
+    },
+    "onlineResources": {
+      "type": "array",
+      "description": "Online resources related to the PoI.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "description": {
+            "type": "string",
+            "description": "Description of the resource."
+          },
+          "linkage": {
+            "type": "string",
+            "format": "uri",
+            "description": "URL of the online resource."
+          }
+        },
+        "required": ["description", "linkage"]
+      }
+    },
+    "locationInfo": {
+      "type": "array",
+      "description": "Location-specific information.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "address": {
+            "type": "object",
+            "description": "Address details.",
+            "properties": {
+              "country": {
+                "type": "string",
+                "description": "Country of the address."
+              },
+              "deliveryPoint": {
+                "type": "string",
+                "description": "Full delivery point address."
+              }
+            },
+            "required": ["country", "deliveryPoint"]
+          },
+          "phone": {
+            "type": "object",
+            "description": "Phone contact information.",
+            "properties": {
+              "number": {
+                "type": "string",
+                "description": "Phone number."
+              }
+            },
+            "required": ["number"]
+          }
+        },
+        "required": ["address", "phone"]
+      }
+    }
+  },
+  "required": ["usesSchema", "onlineResources", "locationInfo"]
+}

@@ -24,7 +24,7 @@
              }],
             "hasMetadata": {
                 "href": "https://github.com/opengeospatial/developer-events/wiki/Arts-and-Nerds",
-            "rel": "about"
+            "rel": "describedby"
             },
             "validFrom": "2025-04-25T09:00:00+01:00", 
             "validTo": "2025-04-09T17:00:00+01:00", 
@@ -72,7 +72,7 @@
                      }],
                     "hasMetadata": {
                         "href": "https://github.com/opengeospatial/developer-events/wiki/Centre-of-Data-for-Public-Good",
-                    "rel": "about"
+                    "rel": "describedby"
                     },
                     "validFrom": "2025-04-25T09:00:00+01:00", 
                     "validTo": "2025-04-09T17:00:00+01:00",
@@ -120,7 +120,7 @@
                              }],
                             "hasMetadata": {
                                 "href": "https://github.com/opengeospatial/developer-events/wiki/Tokyo-Innovation-Base",
-                            "rel": "about"
+                            "rel": "describedby"
                             },
                             "validFrom": "2025-05-24T09:00:00+09:00", 
                             "validTo": "2025-05-25T17:00:00+09:00",
@@ -167,10 +167,10 @@
                              }],
                             "hasMetadata": {
                                 "href": "https://github.com/opengeospatial/developer-events/wiki/Vonk-Innovation-Center",
-                            "rel": "about"
+                            "rel": "describedby"
                             },
-                            "validFrom": "2025-07-22T09:00:00+09:00", 
-                            "validTo": "2025-10-22T17:00:00+09:00",
+                            "validFrom": "2025-07-22T09:00:00+02:00", 
+                            "validTo": "2025-10-22T17:00:00+02:00",
                             "hasPayload":{
                                 "usesSchema": [{
                                     "href": "https://genpoijson.org/schema/publicationpoi.json",
