@@ -191,7 +191,55 @@
                                 }]
                                   }
                                  }
+                                },
+                        {
+                            "type": "Feature",
+                            "geometry": {
+                             "type": "Point",
+                             "coordinates": [-105.0827372,40.5591345]
+                            },
+                            "id": "5",
+                            "properties": {
+                            "name": {
+                             "name": "USGS Science Center"
+                            },
+                            "contactInfo": [{
+                              "role": "owner",
+                              "party": {
+                               "contactInfo": {
+                                "OnlineResource": "https://www.usgs.gov/centers/fort-collins-science-center/connect/locations"
+                               },
+                               "name": "Fort Collins Science Center "
+                              }
+                             }],
+                            "hasMetadata": {
+                                "href": "https://github.com/opengeospatial/developer-events/wiki/USGS-Science-Center",
+                            "rel": "describedby"
+                            },
+                            "validFrom": "2026-01-29T09:00:00-07:00", 
+                            "validTo": "2026-01-29T17:00:00-07:00",
+                            "hasPayload":{
+                                "usesSchema": [{
+                                    "href": "https://raw.githubusercontent.com/ogcincubator/nodes/refs/heads/main/src/poi.json",
+                                    "rel": "describedby"
+                                }],
+                                "onlineResources": [{
+                                    "description": "Website about organisation",
+                                    "linkage": "https://www.usgs.gov/"
+                                }],
+                                "locationInfo": [{
+                                    "address": {
+                                    "country": "United States of America",
+                                    "deliveryPoint": "2150 Centre Avenue, Bldg C,Fort Collins, CO 80526, US"
+                                    },
+                                    "phone": {
+                                    "number": "NA"
+                                    }
+                                }]
+                                  }
+                                 }
                                 }
+
 
     ]
   }

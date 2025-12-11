@@ -35,7 +35,7 @@ function AppVector() {
     <div className="App">
       <MapContainer
         className="full-screen-map"
-        center={[13.0170646,77.5632992]}
+        center={[38.1065158,-33.3996492]}
         zoom={3}
         minZoom={1}
         maxZoom={20}
