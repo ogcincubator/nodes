@@ -22,7 +22,7 @@ The hot reload will ensure that the changes you do on the code will be reflected
 
 ### Note about Publishing the Website
 
-Commit all your changes to the `master` branch. **The `gh-pages` branch will be wiped each time, and generated dynamically from these [GitHub actions](https://github.com/ogcincubator/nodes/actions)**, which create a static build. In a nutshell, **you don't need to do anything to publish the website** - the republish will be triggered automatically with each push to `master`.
+Commit all your changes to the `main` branch. **The `gh-pages` branch will be wiped each time, and generated dynamically from these [GitHub actions](https://github.com/ogcincubator/nodes/actions)**, which create a static build. In a nutshell, **you don't need to do anything to publish the website** - the republish will be triggered automatically with each push to `main`.
 
 ## Contributing 🤝
 
