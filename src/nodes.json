@@ -238,7 +238,55 @@
                                 }]
                                   }
                                  }
+                                },
+                        {
+                            "type": "Feature",
+                            "geometry": {
+                             "type": "Point",
+                             "coordinates": [-0.099720,51.524290]
+                            },
+                            "id": "6",
+                            "properties": {
+                            "name": {
+                             "name": "Geovation"
+                            },
+                            "contactInfo": [{
+                              "role": "owner",
+                              "party": {
+                               "contactInfo": {
+                                "OnlineResource": "https://geovation.uk/"
+                               },
+                               "name": "Geovation"
+                              }
+                             }],
+                            "hasMetadata": {
+                                "href": "https://github.com/opengeospatial/developer-events/wiki/Geovation",
+                            "rel": "describedby"
+                            },
+                            "validFrom": "2026-04-22T09:00:00-07:00", 
+                            "validTo": "2026-05-13T17:00:00-07:00",
+                            "hasPayload":{
+                                "usesSchema": [{
+                                    "href": "https://raw.githubusercontent.com/ogcincubator/nodes/refs/heads/main/src/poi.json",
+                                    "rel": "describedby"
+                                }],
+                                "onlineResources": [{
+                                    "description": "Website about organisation",
+                                    "linkage": "https://geovation.uk/"
+                                }],
+                                "locationInfo": [{
+                                    "address": {
+                                    "country": "United Kingdom",
+                                    "deliveryPoint": "F4, Sutton Yard, 65 Goswell Rd., London EC1V 7EN, London, UK"
+                                    },
+                                    "phone": {
+                                    "number": "NA"
+                                    }
+                                }]
+                                  }
+                                 }
                                 }
+
 
 
     ]
