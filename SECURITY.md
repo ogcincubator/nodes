@@ -28,14 +28,17 @@ This information will help us triage your report more quickly.
 
 ## Policy
 
-Reference to OGC's Security Policy
+TODO: Reference to OGC's Security Policy
 
 ## Supported Versions
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+Supported versions are listed bellow:
 
 | Version | Supported          |
 | ------- | ------------------ |
-| 0.1.   | :white_check_mark: |
+| 0.1.    | :white_check_mark: |
 | < 0.1   | :x:                |
+
+## Thank You
+
+Thank you for helping make this repository safe for everyone. 🙏
