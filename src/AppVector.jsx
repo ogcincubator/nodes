@@ -5,20 +5,28 @@ import L from 'leaflet'
 import MarkerClusterGroup from "react-leaflet-cluster";
 import nodes from './nodes.json'
 
+import markerIcon2x from 'leaflet/dist/images/marker-icon-2x.png';
+import markerIcon from 'leaflet/dist/images/marker-icon.png';
+import markerShadow from 'leaflet/dist/images/marker-shadow.png';
+
+import markerIconGrey from './marker-icon-grey.png';
+
+
 delete L.Icon.Default.prototype._getIconUrl;
 
+
 L.Icon.Default.mergeOptions({
-  iconRetinaUrl: require('leaflet/dist/images/marker-icon-2x.png'),
-  //iconUrl: require('./marker-icon-green.png'),
-  iconUrl: require('leaflet/dist/images/marker-icon.png'),
-  shadowUrl: require('leaflet/dist/images/marker-shadow.png')
+  iconRetinaUrl: markerIcon2x,
+  // iconUrl: markerIconGreen,
+  iconUrl: markerIcon,
+  shadowUrl: markerShadow
 });
 
 const defaultIcon = new L.Icon.Default();
 
 const greyIcon = new L.Icon({
-  iconUrl: require('./marker-icon-grey.png'),
-  shadowUrl: require('leaflet/dist/images/marker-shadow.png'),
+  iconUrl: markerIconGrey,
+  shadowUrl: markerShadow, // Reusing the shadow imported above
   iconSize: [25, 41],
   iconAnchor: [12, 41],
   popupAnchor: [1, -34],
