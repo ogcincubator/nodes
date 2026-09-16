@@ -27,7 +27,7 @@
     "url": "https://github.com/ogcincubator/nodes.git"
   },
   "dependencies": {
-    "@maplibre/maplibre-gl-leaflet": "^0.0.19",
+    "@maplibre/maplibre-gl-leaflet": "^0.1.4",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
